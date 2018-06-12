@@ -1,0 +1,141 @@
+<html>
+    <head>
+        <style>
+        .two-column{
+            padding:15px 20px;
+            border:1px dashed grey;
+        }
+        .left-div{
+            border:5px solid blue;
+        }
+        .right-div{
+            border:5px solid blue;
+        }
+        /*实现一个两栏布局，左侧占30%宽度，右侧占70%宽度*/
+       /*
+       .two-column::after{
+            box-sizing: border-box;
+            content:'';
+            display:table;
+            clear:both;
+
+        }
+        .left-div,.right-div{
+            float:left;
+            box-sizing:border-box;
+        }
+        .left-div{
+            width:30%;
+        }
+        .right-div{
+            width:70%;
+        } */     
+         /*
+        .two-column{
+            box-sizing: border-box;
+            position:relative;
+
+        }
+        .left-div{
+            box-sizing: border-box;
+            width:30%;
+            position:absolute;
+        }
+        .right-div{
+            box-sizing: border-box;
+            width:70%;
+            position:relative;
+            left:calc(30% + 20px);
+        }*/
+        /*
+        .two-column{
+            display:flex;
+        }
+        .left-div{
+            flex:3;
+        }
+        .right-div{
+            flex:7;
+        }*/
+
+        /*实现一个两栏布局，左侧固定宽度，右侧根据浏览器宽度进行自适应变化*/
+       /* .two-column{
+            box-sizing:content-box;
+        }
+        .two-column::after{
+            content:'';
+            display:table;
+            clear:both;
+
+        }
+        .left-div,.right-div{
+            float:left;
+            box-sizing:border-box;
+        }
+        .left-div{
+            width:200px;
+        }
+        .right-div{
+            margin-left:20px;
+            width:calc(100% - 220px);
+        }*/
+        /*.two-column{
+            box-sizing:content-box;
+            position:relative;
+        }
+        .left-div{
+            position: absolute;
+            width:200px;
+        }
+        .right-div{
+            margin-left:220px;
+        }*/
+        /*.two-column{
+            box-sizing: content-box;
+            display:flex;
+        }
+        .left-div{
+            width:200px;
+            flex:0 0 auto;
+        }
+        .right-div{
+            flex:1 1 auto;
+        }*/
+
+        /*实现一个两栏布局，右侧固定宽度，左侧根据浏览器宽度进行自适应变化*/
+        .two-column{
+            box-sizing: content-box;
+        }
+        .two-column::after{
+            content:'';
+            display:table;
+            clear:both;
+        }
+        .right-div{
+           width:200px;
+           float:right;
+       }
+        .left-div{
+            width:calc(100% - 220px);
+            float:left;
+        }
+        
+
+
+
+
+        
+        </style>
+
+    </head>
+    <body>
+    <div class="two-column">
+        <div class="left-div">
+            This is the left div.
+        </div>
+        <div class="right-div">
+            This is the right div.
+        </div>
+    </div>    
+    </body>
+</html>

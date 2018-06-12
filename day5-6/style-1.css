@@ -1,0 +1,31 @@
+p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+td.head{
+    font-weight: bold;
+}
+td.content{
+    width:5cm;
+}
+a:link{
+      color:blue;
+}
+a:visited{
+    color:grey;
+}
+a:hover{
+    background-color:blue;
+}
+a:active{
+    text-decoration: underline;
+}
+ul{
+    list-style-type:none;
+    text-indent: -32px;
+}
+li.head{
+    font-weight:bold;
+    margin-top: 12px;
+}
