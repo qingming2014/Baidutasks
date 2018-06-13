@@ -4,8 +4,30 @@ html{
 body{
     width:100%;
 }
-.header#8{
+.header-8{
     width:1600px;
-    height:1080px;
+    height:990px;
     background:rebeccapurple;
+}
+.text-1{
+    text-align: center;
+    color:white;
+    border:1px solid red;
+}
+.text-1:nth-of-type(1){
+    font-family: Montserrat ExtraLight;
+    font-size:62px;
+    position:relative;
+    top:200px;
+}
+.text-1:nth-of-type(2){
+    font-family: Montserrat ExtraLight;
+    font-size:20px;
+    white-space:pre;
+    position:relative;
+    top:200px;
+}
+.sign-up{
+    position:relative;
+    top:200px;
 }
