@@ -14,6 +14,11 @@ body{
     color:white;
     border:1px solid red;
 }
+.text-2{
+    text-align: center;
+    color:white;
+    border:1px solid red; 
+}
 .text-1:nth-of-type(1){
     font-family: Montserrat ExtraLight;
     font-size:62px;
@@ -30,4 +35,49 @@ body{
 .sign-up{
     position:relative;
     top:200px;
+    border:1px solid white;
+    width:960px;
+    height:250px;
+    margin-left:320px;  
+    display:flex;
+    flex-flow: row wrap;
+}
+.text-2:nth-of-type(1){
+    font-family:Montserrat ExtraLight;
+    font-size:16px;
+    width:960px;
+    margin:50px 100px 0 100px;
+}
+.text-2:nth-of-type(2){
+    font-family:Montserrat ExtraLight;
+    font-size:12px;
+    width:960px;
+    margin:0px 100px 0 100px;
+}
+.text-2:nth-of-type(3){
+    font-family:Montserrat ExtraLight;
+    font-size:14px;
+    width:290px;
+    height:54px;
+    line-height:54px;
+    border:1px solid white; 
+    margin:40px 25px 50px 100px;
+}
+.text-2:nth-of-type(4){
+    font-family:Montserrat ExtraLight;
+    font-size:14px;
+    width:290px;
+    height:54px;
+    line-height: 54px;
+    border:1px solid white; 
+    margin:40px 0 50px 0;
+}
+.text-2:nth-of-type(5){
+    font-family:Montserrat ExtraLight;
+    font-size:12px;
+}
+button:nth-of-type(1){
+    width:125px;
+    height:54px;
+    margin:40px 0 50px 25px;
 }
