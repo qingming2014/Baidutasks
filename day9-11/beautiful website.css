@@ -7,17 +7,15 @@ body{
 .header-8{
     width:1600px;
     height:990px;
-    background:rebeccapurple;
+    background-image: url(../day9-11/images/background-header-8.gif),url(../day9-11/images/background-header-8-1.gif);
 }
 .text-1{
     text-align: center;
     color:white;
-    border:1px solid red;
 }
 .text-2{
     text-align: center;
     color:white;
-    border:1px solid red; 
 }
 .text-1:nth-of-type(1){
     font-family: Montserrat ExtraLight;
@@ -59,7 +57,7 @@ body{
     font-size:14px;
     width:290px;
     height:54px;
-    line-height:54px;
+    line-height:54px;/*使块级元素居中*/
     border:1px solid white; 
     margin:40px 25px 50px 100px;
 }
