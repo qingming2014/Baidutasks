@@ -4,6 +4,8 @@ html{
 body{
     width:100%;
 }
+
+/*first page*/
 .header-8{
     width:1600px;
     height:990px;
@@ -78,4 +80,24 @@ button:nth-of-type(1){
     width:125px;
     height:54px;
     margin:40px 0 50px 25px;
+}
+
+.feature-9{
+    width:1600px;
+    height:990px; 
+    border:solid 1px red;
+}
+.text-2-1{
+    text-align: center;
+    color:black;
+}
+.text-2-1:nth-of-type(1){
+    font-family: Montserrat ExtraLight;
+    font-size:14px;
+}
+.text-2-1:nth-of-type(2){
+    font-family: Montserrat ExtraLight;
+    font-size:42px;
+    white-space:pre;
+    border:solid 1px red;
 }
