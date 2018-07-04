@@ -84,8 +84,8 @@ button:nth-of-type(1){
 
 .feature-9{
     width:1600px;
-    height:990px; 
-    border:solid 1px red;
+    height:710px; 
+    border:1px solid red;
 }
 .text-2-1{
     text-align: center;
@@ -94,10 +94,43 @@ button:nth-of-type(1){
 .text-2-1:nth-of-type(1){
     font-family: Montserrat ExtraLight;
     font-size:14px;
+    position:relative;
+    top:48px;
 }
 .text-2-1:nth-of-type(2){
     font-family: Montserrat ExtraLight;
     font-size:42px;
-    white-space:pre;
-    border:solid 1px red;
+    white-space:pre-line;
+    position:relative;
+    top:-20px;
+}
+.box-landingpages{
+    width:960px;
+    height:350px;
+    margin-left:320px;  
+    display:flex;
+    flex-flow: row wrap;
+}
+.mobile-first,.Accessibility,.Fluid,.Customization{
+    width:450px;
+    height:170px;
+    flex: display;
+    margin-left:24px;
+}
+.text-2-2,.text-2-2-1{
+    white-space: pre-line;
+    position:relative;
+    top:-50px;
+    left:50px;
+}
+.text-2-2{
+    font-family: Montserrat ExtraLight;
+    font-size:20px;
+}
+.text-2-2-1{
+    font-family: Montserrat ExtraLight;
+    font-size:16px;
+    color:grey;
+    position:relative;
+    top:-64px;
 }
