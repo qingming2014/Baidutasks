@@ -84,7 +84,7 @@ button:nth-of-type(1){
 
 .feature-9{
     width:1600px;
-    height:990px; 
+    height:710px; 
     border:solid 1px red;
 }
 .text-2-1{
@@ -98,6 +98,25 @@ button:nth-of-type(1){
 .text-2-1:nth-of-type(2){
     font-family: Montserrat ExtraLight;
     font-size:42px;
-    white-space:pre;
+    white-space:pre-line;
+    border:solid 1px red;
+}
+.box-landingpages{
+    border:1px solid red;
+    width:960px;
+    height:350px;
+    margin-left:320px;  
+    display:flex;
+    flex-flow: row wrap;
+}
+.text-2-2,.text-2-2-1{
+    white-space: pre-line;
+    border:solid 1px red;
+    position:relative;
+    top:-50px;
+    left:50px;
+}
+.text-2-2-1{
+    white-space:pre-line;
     border:solid 1px red;
 }
