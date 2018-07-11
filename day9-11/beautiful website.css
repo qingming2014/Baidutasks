@@ -85,7 +85,11 @@ button:nth-of-type(1){
 .feature-9{
     width:1600px;
     height:710px; 
+<<<<<<< HEAD
     border:1px solid red;
+=======
+    border:solid 1px red;
+>>>>>>> 6f12b6d22e53a0f3d9138240592ad168edf36351
 }
 .text-2-1{
     text-align: center;
@@ -101,16 +105,24 @@ button:nth-of-type(1){
     font-family: Montserrat ExtraLight;
     font-size:42px;
     white-space:pre-line;
+<<<<<<< HEAD
     position:relative;
     top:-20px;
 }
 .box-landingpages{
+=======
+    border:solid 1px red;
+}
+.box-landingpages{
+    border:1px solid red;
+>>>>>>> 6f12b6d22e53a0f3d9138240592ad168edf36351
     width:960px;
     height:350px;
     margin-left:320px;  
     display:flex;
     flex-flow: row wrap;
 }
+<<<<<<< HEAD
 .mobile-first,.Accessibility,.Fluid,.Customization{
     width:450px;
     height:170px;
@@ -119,10 +131,16 @@ button:nth-of-type(1){
 }
 .text-2-2,.text-2-2-1{
     white-space: pre-line;
+=======
+.text-2-2,.text-2-2-1{
+    white-space: pre-line;
+    border:solid 1px red;
+>>>>>>> 6f12b6d22e53a0f3d9138240592ad168edf36351
     position:relative;
     top:-50px;
     left:50px;
 }
+<<<<<<< HEAD
 .text-2-2{
     font-family: Montserrat ExtraLight;
     font-size:20px;
@@ -133,4 +151,9 @@ button:nth-of-type(1){
     color:grey;
     position:relative;
     top:-64px;
+=======
+.text-2-2-1{
+    white-space:pre-line;
+    border:solid 1px red;
+>>>>>>> 6f12b6d22e53a0f3d9138240592ad168edf36351
 }
