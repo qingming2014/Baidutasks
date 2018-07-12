@@ -16,11 +16,17 @@
 .name{
     width:960px;
     color: cornflowerblue;
-
 }
 .basic-info{
-    width:960px;
-    
+    width:960px;  
+    position:relative; 
+}
+.photo{
+    position:absolute;
+    right:20px;
+    top:-50px;
+    width:125px;
+    height:160px;
 }
 
 .basic-info p{ 
