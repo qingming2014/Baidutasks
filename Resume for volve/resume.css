@@ -1,0 +1,62 @@
+.html{
+    width:100%;
+}
+.body{
+    width:100%;
+}
+.resume{
+    width:1000px;
+    position: absolute;
+    left:0;
+    right:0;
+    margin:auto;
+    padding-left:20px;
+    background-color: antiquewhite;
+}
+.name{
+    width:960px;
+    color: cornflowerblue;
+
+}
+.basic-info{
+    width:960px;
+    
+}
+
+.basic-info p{ 
+    display:inline-block;
+    width:400px;
+    margin-right:20px;   
+    margin-top: 5px;
+    margin-bottom: 0;
+
+}
+h3{
+    width:960px;
+    margin-bottom: 5px;
+    color:cornflowerblue;
+    border-bottom: 1px solid cornflowerblue;
+}
+ul{
+    width:960px;
+    list-style-type: none;
+    margin-top: 0;
+
+}
+.para{
+    width:960px;
+    display:flex;
+
+}
+.edu p, .project p{
+    display:inline-block;
+    flex:1 300px;
+    font-weight: bold;
+
+}
+.edu p:nth-child(3){
+    text-align:right;
+}
+.project p:nth-child(3){
+    text-align:right;
+}
