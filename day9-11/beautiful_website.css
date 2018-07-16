@@ -236,3 +236,51 @@ button:nth-of-type(1){
     text-align:center;
     margin-top:48px;
 }
+
+.feature-14{
+    width:1600px;
+    height:960px; 
+    position:relative;
+    border:1px solid grey;
+}
+.leaf-part{
+    width:1140px;
+    height:350px;
+    margin-left:230px;
+    position:relative;
+    top:100px;
+}
+.leaf-text{
+    width:350px;
+    height:350px;
+    position:relative;
+    left:700px;
+    top:-380px;
+}
+.bird-part{
+    width:1140px;
+    height:350px;
+    margin-left:230px;
+    position:relative;
+    top:150px;
+}
+.bird-text{
+    width:350px;
+    height:350px;
+}
+.bird-img{
+    position:relative;
+    left:500px;
+    top:-350px;
+}
+.text-5-1,.text-5-2{
+    white-space: pre-line;
+}
+.text-5-1{
+    font-size:20px;
+    line-height:32px;
+}
+.text-5-2{
+    font-size:16px;
+    line-height:28px;
+}
